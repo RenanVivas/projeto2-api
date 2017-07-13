@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var expressMongoDb = require('express-mongo-db');
 
-var mensagemController = require('./js/postagem.js');
+var postagemController = require('./js/postagem.js');
 
 // inicializa o express
 var app = express();
